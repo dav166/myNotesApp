@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NgFor } from '@angular/common';
 import {NOTES} from '../notes';
 
 @Component({
@@ -6,6 +7,7 @@ import {NOTES} from '../notes';
     standalone: true,
     templateUrl: './notes-list.component.html',
     styleUrls: ['./notes-list.component.css'],
+    imports: [NgFor],
 })
 export class NotesListComponent {
     notes = NOTES;

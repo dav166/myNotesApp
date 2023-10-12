@@ -1,0 +1,11 @@
+.notes {
+    width: 80%;
+}
+
+.notes li {
+    margin-bottom: 20px;
+    list-style: none;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
