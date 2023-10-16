@@ -28,3 +28,17 @@ body {
     color: gray;
     font-size: 10pt;
 }
+
+h2 {
+    font-size: 15pt;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 10pt;
+    border: none;
+}

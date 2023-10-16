@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NgFor } from '@angular/common';
-import {NOTES} from '../notes';
+import { NOTES } from '../notes';
 
 @Component({
     selector: 'app-notes-list',

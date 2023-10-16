@@ -1,6 +1,6 @@
 <div class="container">
     <h2>New Note</h2>
-    <form [formGroup]="addNoteForm">
+    <form [formGroup]="addNoteForm" (ngSubmit)="addNote()">
         <div>
             <label for="note-title">
                 Title:
@@ -13,6 +13,13 @@
                 <input id="note-text" formControlName="text" />
             </label>
         </div>
-        <button type="button" class="button" type="submit">Add Note</button>
+        <button 
+            type="button" 
+            class="button" 
+            type="submit"
+            [disabled]="!addNoteForm.valid"
+        >
+            Add Note
+        </button>
     </form>
 </div>
