@@ -12,8 +12,4 @@ import { RouterModule } from '@angular/router';
 })
 export class NotesListComponent {
     notes = NOTES;
-
-    show(title: string) {
-        alert(title);
-    }
 }

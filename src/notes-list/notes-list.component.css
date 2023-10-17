@@ -11,22 +11,10 @@
     text-align: left;
 }
 
-button {
+li button {
     width: 100%;
     border: none;
     background: none;
     padding: 20px;
     cursor: pointer;
-}
-
-nav button {
-    width: auto;
-    display: inline-block;
-    padding: 10px;
-    border-radius: 20px;
-    background-color: #007bff;
-    color: #fff;
-    font-size: 10pt;
-    border: none;
-    text-decoration: none;
 }
